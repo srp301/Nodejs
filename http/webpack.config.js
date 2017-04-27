@@ -1,14 +1,14 @@
 module.exports = {
-	entry:__dirname+"/main.js",
+	entry:__dirname+'/server.js',
 	output:{
 		path:__dirname,
-		filename:"bundle.js"
+		filename:'bundle.js'
 	},
 	module:{
 		loaders:[
 			{
 				test:/\.js/,
-				loader:"babel-loader",
+				loader:"babel-loader"
 			}
 		]
 	}
